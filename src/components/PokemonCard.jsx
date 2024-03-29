@@ -1,4 +1,5 @@
 
+import PropTypes from 'prop-types'
 
   function PokemonCard({pokemon}) {
     
@@ -10,5 +11,17 @@
   }
    
   
+  PokemonCard.propTypes = {
+
+    wilder: PropTypes.shape({
+  
+      name: PropTypes.string.isRequired,
+  
+      imgSrc: PropTypes.string.isRequired,
+  
+    }).isRequired,
+  
+  }
+
 
   export default PokemonCard;
