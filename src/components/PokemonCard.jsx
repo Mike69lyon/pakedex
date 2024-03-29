@@ -8,7 +8,7 @@
     </figure>
     ) 
   }
-  
+   
   
 
   export default PokemonCard;
